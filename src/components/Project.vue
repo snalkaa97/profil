@@ -7,7 +7,7 @@
 					v-bind:key="project"
 					class="col-lg-6 col-sm-12"
 				>
-					<div class="content p-3 mt-2">
+					<div class="content p-3 mt-2" style="max-height: 170px; min-height: 170px;">
 						<div class="text-start">
 							<a
 								v-bind:href="project.link"

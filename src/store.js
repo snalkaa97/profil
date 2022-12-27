@@ -13,10 +13,23 @@ export default new Vuex.Store({
 		profile: {
 			name: "syaifudin alkatiri",
 			image: "../assets/profile_pic.png",
-			bio: `I have 3+ years experience in web programming and working in that field. I get nationally certified as a Junior Web Developer by the National Professional Certification Agency until 2023. Currently working and a new experience as Middleware Developer at CIMB Niaga. Before joining CIMB Niaga, I have been career as Web Developer.\n\nI build the web using various PHP framework with some of popular like Laravel and nodeJS, currently my specially is backend position. I still learning various frontend JavaScript frameworks like Vue and React. As Middleware Developer I learn ESQL, API Managament, and Enterprise Service Bus. fyi this web using Vue`,
+			bio: `I have 4 years experience in web programming and working in that field. I get nationally certified as a Junior Web Developer by the National Professional Certification Agency until 2023. Currently working and a new experience as Middleware Developer at CIMB Niaga. Before joining CIMB Niaga, I have been career as Web Developer.\n\nI build the web using various PHP and Javascript framework with some of popular like Laravel and nodeJS (Express), currently my specially is backend position. I build various frontend JavaScript frameworks like Vue and React. As Middleware Developer I learn ESQL, API Managament, and Enterprise Service Bus. fyi this web using Vue`,
 			email: "sfnalkatiri@gmail.com",
+			role: "Web and Middleware Developer"
 		},
 		projects: [
+			{
+				name: "Auth JWT ExpressJS Sequelize",
+				link: "https://github.com/snalkaa97/express-authjwt-sequelize",
+				description: "Simple CRUD Express and Authentication using JWT",
+				tag: ["javascript", "expressjs","sequelize"],
+			},
+			{
+				name: "ExpressJS and PostgreSQL",
+				link: "https://github.com/snalkaa97/express-pgsql.git",
+				description: "Simple CRUD Express and PostgreSQL",
+				tag: ["javascript", "expressjs","postgresql"],
+			},
 			{
 				name: "ReactJS CRUD API and Redux",
 				link: "https://github.com/snalkaa97/react-crud-api",
