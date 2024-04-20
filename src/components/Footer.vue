@@ -2,27 +2,6 @@
 	<footer class="bg-accent-1 border-t border-accent-2">
 		<div class="pt-4 pb-2 flex justify-center items-center">
 			<a
-				href="https://www.facebook.com/syaifudin.alkatiri.3/"
-				target="_blank"
-				title="Facebook"
-				rel="noopener noreferrer"
-				class="p-1 mx-2 text-red-500 border-2 border-red-500 rounded"
-				><svg
-					xmlns="http://www.w3.org/2000/svg"
-					width="24"
-					height="24"
-					viewBox="0 0 24 24"
-					fill="none"
-					stroke="currentColor"
-					stroke-width="2"
-					stroke-linecap="round"
-					stroke-linejoin="round"
-				>
-					<path
-						d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
-					></path></svg
-			></a>
-			<a
 				href="https://github.com/snalkaa97"
 				title="Github"
 				target="_blank"
@@ -67,11 +46,12 @@
 			></a>
 		</div>
 		<div class="pb-8 md:pb-4 flex justify-center items-center">
-			© 2021 All rights reserved
+			© {{ new Date().getFullYear() }} All rights reserved
 		</div>
 		<p class="text-muted">on development</p>
 	</footer>
 </template>
+
 <style scoped>
 a {
 	color: #2c3e50;

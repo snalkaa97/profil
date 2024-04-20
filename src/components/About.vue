@@ -14,12 +14,17 @@
 					</div>
 					<div class="col-lg-11 col-sm-12">
 						<div class="flex-grow-1 ms-3 text-start">
-							<b>Hi 👋, I am {{ profil.name }}</b> | <span class="text-muted font-monospace">{{ profil.role }}</span>
+							<b>Hi 👋, I am {{ profil.name }}</b> | <span class="text-muted">{{ profil.role }}</span>
 							<br />
 							<div class="mb-3"></div>
 							{{ profil.bio }}
 							<!-- Now you can call me <b>Alka</b> -->
 							<br />
+							<br />
+							<b>my stacks:</b>
+							<div class="skills">
+								<p>NodeJs Laravel GraphQL React Vue Docker MongoDB Apache Kafka</p>
+							</div>
 							<a
 								class="text-decoration-none email"
 								:href="`mailto:${profil.email}`"
@@ -49,6 +54,10 @@ export default {
 };
 </script>
 <style>
+.skills {
+	margin-left: 10px;
+	font-size: 14px;
+}
 .user-pic {
 	height: 80px;
 	widows: 80px;

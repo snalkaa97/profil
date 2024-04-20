@@ -13,11 +13,17 @@ export default new Vuex.Store({
 		profile: {
 			name: "syaifudin alkatiri",
 			image: "../assets/profile_pic.png",
-			bio: `I have 4 years experience in web programming and working in that field. I get nationally certified as a Junior Web Developer by the National Professional Certification Agency until 2023. Currently working and a new experience as Middleware Developer at CIMB Niaga. Before joining CIMB Niaga, I have been career as Web Developer.\n\nI build the web using various PHP and Javascript framework with some of popular like Laravel and nodeJS (Express), currently my specially is backend position. I build various frontend JavaScript frameworks like Vue and React. As Middleware Developer I learn ESQL, API Managament, and Enterprise Service Bus. fyi this web using Vue`,
+			bio: `I have 5 years experience in programming and working in that field. Currently working and a new experience as Backend Developer at Jenius. Before joining Jenius, I have been career as Fullstack Developer.\n\nI build the web using various Javascript framework with some of popular like nodeJS, currently my specially is backend position.`,
 			email: "sfnalkatiri@gmail.com",
-			role: "Web and Middleware Developer"
+			role: "Backend Developer"
 		},
 		projects: [
+			{
+				name: "Wedding Invitation",
+				link: "https://github.com/snalkaa97/alka-inung-wedding-invitation",
+				description: "Sample landing page for Wedding Invitation.",
+				tag: ["javascript", "reactjs"],
+			},
 			{
 				name: "Auth JWT ExpressJS Sequelize",
 				link: "https://github.com/snalkaa97/express-authjwt-sequelize",
